@@ -1,0 +1,57 @@
+
+h1 {
+
+	font: bold;
+	color: darkRed;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+
+h2 {
+
+	font: bold;
+	color: black;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+
+body {
+
+	color: black;
+	background-color: lightGray;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	padding: 5%;
+
+}
+
+i {
+	font-size: 11px;
+}
+
+p {
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img {
+	margin: 0;
+}
+
+#tester {
+	background-color: lightBlue;
+	border-radius: 10px;
+	padding: 2%;
+}
+
+h3 {
+	color: green;
+}
+
+.wrong {
+	color: red;
+}

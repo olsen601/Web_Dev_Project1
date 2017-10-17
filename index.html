@@ -1,6 +1,9 @@
 <DOCTYPE! html>
 <html>
   <head>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="styles.css">
   </head>
 
   <body>
@@ -45,8 +48,23 @@
         ASCII is essentially a code system to represent characters, when you open a text editor like notepad++ or Atom you
         can specify ASCII as the encoding method. The ASCII encoding is necessary for your computer to understand characters
         because it converts characters to numbers which is a format your computer can understand.
-        <br><!--add image of ASCII code chart--><br>
-        Here you can see that A is represented by 65 in decimal format and 40 in hexadecimal format.
+        <br><img src="images/ASCII-Table.png"></img><!--add image of ASCII code chart--><br>
+        <i>Here you can see that A is represented by 65 in decimal format and 40 in hexadecimal format.</i>
       </p>
-  </body>
+      <hr>
+      <div id="tester">
+        <h2>Encode the following</h2>
+        <span id="type1"></span> to <span id="type2"></span>
+        <br><input type="text" id="users_answer" size = 8></input><br>
+        <br><button id="submit">Check Answer</button><br>
+        <div id="scoreResults">
+          <h3><span id="result"></span></h3>
+          <span id="rightAnswer"></span>
+          <br/>
+          <span id="score"></span>
+        </div>
+      </div>
+      <script src="encodingTester.js">
+      </script>
+      </body>
 </html>
